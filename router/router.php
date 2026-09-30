@@ -2,7 +2,7 @@
 
 function router(){
     echo "2. Router está analisando a URL.<br>";
-    $rota = "/usuarios";
+    $rota = "/jogadores";
     $parametro = "id=123";
     middleware($rota);
 }
